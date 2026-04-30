@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pet - Cuidado e Qualidade</title>
+    <script src="scripts/script.js" defer></script>
+    <link rel="shortcut icon" href="./assets/caoFavicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="container">
+            <div class="logo">Little<span>.pet</span></div>
+            <button id="hamburger">&#9776;</button>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Principal -->
+    <main>
+        <!-- Hero Section -->        
+        <section id="inicio" class="hero container">
+            <div class="hero-content">
+                <h1>Cuidando do seu pet com <span>carinho e qualidade</span></h1>
+                <p>Banho, tosa e produtos selecionados para garantir a saúde e felicidade do seu melhor amigo.</p>
+                <div class="hero-btns">
+                    <button class="btn-primary">Agendar Atendimento!</button>
+                    <a href="#servicos" class="btn-link">Conheça nossos serviços</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/cao02.png" alt="Cachorro Yorkshire">
+            </div>
+        </section>
+        <!-- Sobre Section -->
+        <section id="sobre" class="sobre container">
+            <div class="sobre-text">
+                <h2>Sobre a Little <span>Pet</span></h2>
+                <p>Na Little Pet, acreditamos que cada animal merece cuidado, carinho e atenção especial.</p>
+                <p>Nossa missão é oferecer serviços de qualidade, com profissionais dedicados e um ambiente seguro, garantindo o bem-estar e a felicidade do seu pet.</p>
+                <p>Trabalhamos com produtos selecionados e técnicas adequadas para cada tipo de pelagem, sempre respeitando o conforto e a individualidade de cada animal. Aqui, seu pet é tratado como parte da família.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>+200</h3>
+                        <p>Pets atendidos</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>+2</h3>
+                        <p>Anos de experiência</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Amor aos animais</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-card">
+                <img src="assets/cao01.png" alt="Pet destaque">
+            </div>
+        </section>
+        <!-- Serviços Section -->
+        <section id="servicos" class="servicos container">
+            <h2>Nossos Serviços</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="icon">🚿</div>
+                    <h4>Banho e tosa</h4>
+                    <p>Higiene completa e corte específico para cada raça.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🩺</div>
+                    <h4>Consultas</h4>
+                    <p>Check-ups e orientações com veterinários experientes.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🛍️</div>
+                    <h4>Pet Shop</h4>
+                    <p>Brinquedos, rações premium e acessórios exclusivos.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contato Section -->
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contato-wrapper">
+                    <div class="info">
+                        <p>📍 Palhoça - SC</p>
+                        <p>📞 (48) 99999-9999</p>
+                        <p>✉️ contato@Little.pet</p>
+                    </div>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <textarea placeholder="Como podemos ajudar seu pet?" rows="4"></textarea>
+                        <button type="submit" class="btn-primary">ENVIAR MENSAGEM</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Little.pet - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
