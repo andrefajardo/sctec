@@ -1,8 +1,8 @@
 # 🚀 Portfólio de Projetos - Capacitação SCTEC
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Estado-Santa%20Catarina-blue?style=for-the-badge" alt="SC">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
 </p>
 
 ## 📋 Sobre o SCTEC
