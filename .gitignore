@@ -1,0 +1,36 @@
+# ==========================================
+# 1. AMBIENTES VIRTUAIS DO PYTHON
+# ==========================================
+# Ignora qualquer ambiente virtual em qualquer nível de subpasta
+.venv/
+venv/
+env/
+praticas/
+projeto-*/
+
+# ==========================================
+# 2. CACHE DO PYTHON E COMPILADOS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# 3. JUPYTER NOTEBOOKS (CACHES & TEMPORÁRIOS)
+# ==========================================
+# Arquivos de checkpoint gerados automaticamente pelo Jupyter/VS Code
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# ==========================================
+# 4. CONFIGURAÇÕES DA IDE (VS Code)
+# ==========================================
+.vscode/
+
+# ==========================================
+# 5. DADOS SENSÍVEIS OU PESADOS (OPCIONAL)
+# ==========================================
+# Caso trabalhe com arquivos de dados muito grandes ou senhas/chaves
+*.log
+.env
+# *.csv  # Descomente se não quiser subir arquivos CSV pesados ao GitHub
