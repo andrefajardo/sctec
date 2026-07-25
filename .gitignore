@@ -1,36 +1,68 @@
-# ==========================================
-# 1. AMBIENTES VIRTUAIS DO PYTHON
-# ==========================================
-# Ignora qualquer ambiente virtual em qualquer nível de subpasta
+# ------------------------------------------------------------------------------
+# AMBIENTES VIRTUAIS (VENV)
+# Nunca envie a pasta .venv para o GitHub; apenas o código e o requirements.txt
+# ------------------------------------------------------------------------------
 .venv/
 venv/
+ENV/
 env/
-praticas/
-projeto-*/
+env.bak/
+venv.bak/
 
-# ==========================================
-# 2. CACHE DO PYTHON E COMPILADOS
-# ==========================================
+# ------------------------------------------------------------------------------
+# PYTHON (Arquivos temporários e Caches)
+# Caches de compilação do Python
+# ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# ==========================================
-# 3. JUPYTER NOTEBOOKS (CACHES & TEMPORÁRIOS)
-# ==========================================
-# Arquivos de checkpoint gerados automaticamente pelo Jupyter/VS Code
+# ------------------------------------------------------------------------------
+# JUPYTER NOTEBOOKS
+# Checkpoints e dados temporários do Jupyter
+# ------------------------------------------------------------------------------
 .ipynb_checkpoints
-*-checkpoint.ipynb
+*/.ipynb_checkpoints/*
 
-# ==========================================
-# 4. CONFIGURAÇÕES DA IDE (VS Code)
-# ==========================================
+# ------------------------------------------------------------------------------
+# IDEs E EDITORES (VS Code, PyCharm, etc.)
+# Configurações pessoais e historicos locais
+# ------------------------------------------------------------------------------
 .vscode/
+.idea/
+*.swp
+*~
 
-# ==========================================
-# 5. DADOS SENSÍVEIS OU PESADOS (OPCIONAL)
-# ==========================================
-# Caso trabalhe com arquivos de dados muito grandes ou senhas/chaves
-*.log
+# ------------------------------------------------------------------------------
+# CONFIGURAÇÕES E CHAVES SECRETAS (ENV / SECRETS)
+# Impede o vazamento de senhas, chaves de API e credenciais
+# ------------------------------------------------------------------------------
 .env
-# *.csv  # Descomente se não quiser subir arquivos CSV pesados ao GitHub
+.env.*
+*.env
+secrets.json
+
+# ------------------------------------------------------------------------------
+# DADOS / ARQUIVOS PESADOS E BANCO DE DADOS LOCAL
+# ------------------------------------------------------------------------------
+*.sqlite3
+*.db
+*.log
